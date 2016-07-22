@@ -1,0 +1,101 @@
+body {
+	width: 100%;
+	margin: 0px;
+	left: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navitem {
+	float: right;
+	font-family: arial;
+	font-size: 13px;
+	line-height: 24px;
+	margin: 8px 10px;
+}
+
+.navitem a {
+	text-decoration: none;
+	color: black;
+	margin: auto 0;
+}
+
+.navitem strong {
+	display: block;
+	color: white;
+	background-color: blue;
+	padding: 3px 28px;
+	border-radius: 3px;
+}
+
+.navitem img {
+	padding-top: 5px;
+}
+
+#content {
+	width: 550px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+}
+
+#logo {
+	width: 272px;
+	margin: 0 auto;
+}
+
+#inputb {
+	width: 100%;
+	margin: 12px 0;
+	height: 27px;
+	border-color: gray;
+	border-width: 1px;
+}
+
+#buttons {
+	width: 50%;
+	margin: 15px auto;
+}
+
+.btn {
+	display: inline-block;
+	height: 28px;
+	width: 49%;
+	background-color: #f1f1f1;
+	border: none;
+	color: #757575;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	height: 40px;
+	background-color: rgb(242, 242, 242);
+	width: 100%;
+}
+
+footer a {
+	line-height: 24px;
+	text-decoration: none;
+	color: #666;
+	font-size: 13px;
+	font-family: arial;
+	margin: auto 0;
+}
+
+.footeriteml, .footeritemr {
+	margin: 5px 15px;
+}
+
+.footeriteml {
+	float: left;
+}
+
+.footeritemr {
+	float: right;
+}
